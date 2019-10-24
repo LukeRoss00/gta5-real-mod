@@ -6,15 +6,14 @@
 # Quick setup
 
 1. I recommend that you start from a clean installation of the game, updated to the current version (1.0.1737.6), with no other mods present. Then if you wish, after you're confident that everything works correctly in VR with the R.E.A.L. mod, you can try mixing it up with other mods that you like, although I cannot guarantee that there will be no incompatibilities (a sure source of problems for example would be trying to use additional mods that modify the camera FOV). If you're unable to update the game for some reason, old versions down to 1.0.1180.2 should also work, but I can't give you much support there.
-2. Before installing the mod, boot up the game normally on your monitor and make the following important adjustments to the settings; when you're done, exit the game again:
+2. Before installing the mod, boot up the game normally on your monitor and make the following important adjustments to the settings; when you're done, exit the game again *(**Edit**: the 'First Person Head Bobbing' setting had escaped my attention in earlier versions of the README, sorry!)*:
 ```
 Settings> Gamepad> Targeting Mode                  : Free Aim
 Settings> Camera>  Allow Independent Camera Modes  : Off
 Settings> Camera>  First Person Head Bobbing       : Off
 Settings> Camera>  First Person Third Person Cover : On
 Settings> Camera>  First Person Vehicle Hood       : Off
-```  
-*(**Edit**: the 'First Person Head Bobbing' setting had escaped my attention in earlier versions of the README, sorry!)*  
+```
 3. Unrar `GTAV_REAL_mod_by_LukeRoss.rar` into the main game folder, i.e., the one where `GTA5.exe` is, usually something like `C:\Program Files (x86)\Steam\steamapps\common\Grand Theft Auto V`. There should be no need to overwrite any existing files: if the extraction program asks you to do that, it is probably because you have other mods installed, which you should remove at least temporarily (see point 1).
 4. This step is very important: if you fail to do this, chances are that the R.E.A.L. mod will not work at all. Go to your `Documents\Rockstar Games\GTA V` folder, and make a backup copy of the `settings.xml` file that contains your current graphics settings. Then, *replace* and overwrite your `settings.xml` with either of the two versions that were put inside the `Grand Theft Auto V` folder when you extracted the mod: select `Grand Theft Auto V\Settings\Low\settings.xml` if you have a low-end system, or `Grand Theft Auto V\Settings\High\settings.xml` if you have a high-end system. Later on, if you are so inclined, you will be able to refine the settings to your liking as explained in the [Advanced tweaking](#advanced-tweaking-and-hotkeys) section, in order to find the best possible balance between graphic quality and frame rate.  
 **UPDATE: A few people are reporting that the game insists on overwriting the settings file, changing the resolution and making the mod unstable/unusable. Just to be on the safe side, perhaps it's better that after replacing your `settings.xml` you set it to read-only, at least until we can identify what triggers the issue.**  
