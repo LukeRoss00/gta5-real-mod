@@ -21,6 +21,7 @@ Later on, if you are so inclined, you will be able to refine the settings to you
 *Note 2:* If you omit editing the videocard description to match yours, you might find that GTA V simply ignores your custom settings file. This can lead to all kinds of weird symptoms like a 60 fps cap because vsync is being forced on, the game running fullscreen while it should use a square borderless window, poor detail/jaggies in the distance, etc.
 5. Remember to set your Windows default audio device to the VR headset, otherwise you will have no sound in game (if you have an Oculus system, this step can later be automated with the [Oculus Tray Tool](https://forums.oculusvr.com/community/discussion/47247/oculus-traytool-supersampling-profiles-hmd-disconnect-fixes-hopefully/p1) by creating a profile for GTA V and enabling the Audio Switcher).  
 6. Put on your HMD, pick up a gamepad if you wish, launch the game and marvel at the beauty that is Los Santos in VR! Whenever you need to recenter your view or to realign the HUD in front of you, just shake your head once as though you were saying no (more details in the [Recentering your view](#recentering-your-view-in-vr) section below).  
+7. If you need troubleshooting, or just want to know more, please read the rest of this file! There is also a [FAQ](#faq) section at the end.
 
 # In-game HUD
 
@@ -99,7 +100,7 @@ Settings> Graphics>          In-Game Depth Of Field Effects: recommended Off
 Settings> Advanced Graphics> Frame Scaling Mode            : must be either 5/2 (x2.500) or 2/1 (x2.000) 
 ```
 
-The mod also assumes that you are running the game with a square resolution (which can normally be set only in windowed mode). The high-end template file uses 1080x1080, and the low-end one starts from 600x600. Note that this is *not* the resolution which will be sent to your headset: the mod leverages the internal workings of GTA's RAGE engine to render the in-game world at a much higher resolution, as specified by the `Frame Scaling Mode` value.
+The mod also assumes that you are running the game with a square resolution (which can normally be set only in windowed mode). The high-end template file uses 1080x1080, and the low-end one starts from 600x600. Note that this is *not* the resolution which will be sent to your headset: the mod leverages the internal workings of GTA's RAGE engine to render the in-game world at a much higher resolution, as specified by the `Frame Scaling Mode` value. **Edit:** *see the new [Resolution tweaking](#even-more-advanced-resolution-tweaking) section below for more in-depth information.*
 
 Running the game in a square window is very important, because due to the way VR systems manage the two eye buffers, letting the game choose a 4:3 (or even worse its preferred 16:9) aspect ratio would result in *lots* of wasted pixels, i.e., pixels which would be rendered by the game engine but could never be seen in the headset, causing a big performance loss. You definitely don't want to do that!
 
@@ -127,6 +128,16 @@ NUMPAD 0    Toggle position tracking - on at start
 NUMPAD 2    Toggle stereo rendering (alternate eyes) - on at start
 NUMPAD 3    Toggle darts/tennis FOV override - on at start
 ```
+
+# Even more advanced resolution tweaking
+
+The high-end template file makes the game run in a 1080x1080 window, with a frame scaling of 5/2 (`<SamplingMode value="9" />` in the settings file), which means that the actual framebuffer resolution is 2700x2700. A few users with very powerful video cards, wanting to really push their rendering resolution to extreme values, asked whether it is possible to raise the frame scaling multiplier further: unfortunately it cannot be done, as `<SamplingMode value="9" />` is the maximum. However, what can and should be done if you want to achieve higher supersampling in the VR headset is to increase `ScreenWidth` and `ScreenHeight` in the settings file, always keeping them identical.
+
+As an example, on the Rift, near-perfect image quality can be obtained by setting both `ScreenWidth` and `ScreenHeight` to 1200. More than that will bring even the most powerful GPUs available today to their knees.
+
+You will find, though, that the game will not create (or work correctly with) a window that is larger than your Windows desktop resolution. So for instance if you have a 1080p monitor and try to put a resolution of 1200x1200 in `settings.xml`, the game window will be clamped to 1200x**1080**, which means that *a.* the VR resolution will not actually increase, *b.* the HUD aspect ratio will be thrown out of whack, and *c.* your graphics card will be rendering extra pixels just to throw them away without displaying them.
+
+A trick was posted on Reddit involving the commandline parameters to the game, but I advise against it because the mouse pointer will be unable to reach all parts of the window, meaning that the menus and some in-game interactions will not work properly. My recommendation instead is to extend your Windows desktop resolution beyond the limits of your physical monitor, which can be achieved using Dynamic Super Resolution if you have an NVIDIA card, or Virtual Super Resolution if you have an AMD one. I know for a fact that DSR works correctly with GTA V in this context, as I'm using it myself; some feedback would be appreciated from AMD users about VSR.
 
 # Fixes included in the R.E.A.L. mod
 
