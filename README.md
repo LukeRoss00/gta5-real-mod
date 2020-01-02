@@ -63,9 +63,11 @@ If you cannot seem to trigger the recentering, follow these instructions:
 
 In my previous [R.E.A.L. mod](https://github.com/LukeRoss00/nolf2-real-mod) for the almost forgotten gem that is NOLF2, I was able to offer a lot of options for viewing cutscenes, so they could be enjoyed by all kinds of people, from those who have built sturdy VR legs down to those who immediately get sick as soon as the camera moves.
 
-GTA V is much more rigid in its management of the camera during cutscenes, and to the best of my knowledge it is impossible to even properly set the cutscene camera FOV from a mod (though if you're a modder and you know different, please see your section further on and get in touch with me). So, cutscenes will be very immersive, but perhaps a little too hard on some players: the camera will zoom in on characters and move around a lot, just as it does in the original 2D version. You'll be able to look everywhere in roomscale and see all kinds of hidden details, however, which I hope more than makes up for the discomfort!
+GTA V is much more rigid in its management of the camera during cutscenes, and to the best of my knowledge it is impossible to even properly set the cutscene camera FOV from a mod (though if you're a modder and you know different, please see your section further on and get in touch with me). So, cutscenes will be very immersive, but perhaps a little too hard on some players: the camera will zoom in on characters and move around a lot, just as it does in the original 2D version. You'll be able to look everywhere in roomscale and see all kinds of hidden details, however, which should make up for the discomfort!
 
-If you read [Advanced tweaking](#advanced-tweaking-and-hotkeys) below, you'll find that there is one option for pitch control that you can modify, and you can also force the FOV, which gets rid of the zoom effect but introduces all kinds of artefacts as described in [Car wheels in the sky](#i-see-car-wheels-in-the-sky-wtf). In case of panic, just remember that all cutscenes can be skipped after a second or so by pressing 'A' on the controller or the left mouse button.
+**Edit:** *Release 3 of the mod introduces two new viewing modes for cutscenes, which I hope will make everybody happy :-) I call the first new mode "dynamic stereo". It automatically adapts to the varying camera FOV, so that the old problem where characters in cutscenes were frequently too close to your face for comfort, and looked somewhat flat, is completely eliminated. It also preserves the ability to look around freely, so for most users it should definitely be an improvement, which made me decide to set it as the new default. The only downside is that, when the camera really zooms in, faces will tend to look larger than life, the same as in 3D movies. If even this way of viewing cutscenes is too much for you, please see the [Advanced tweaking](#advanced-tweaking-and-hotkeys) section below to switch to a static, 2D virtual screen that completely eliminates all issues with motion sickness or vergence, of course at the cost of reduced immersiveness.*
+
+Also in [Advanced tweaking](#advanced-tweaking-and-hotkeys), you'll find that there is one option for pitch control that you can modify, and you can even force the FOV, which gets rid of the zoom effect completely but introduces all kinds of artefacts as described in [Car wheels in the sky](#i-see-car-wheels-in-the-sky-wtf). In case of panic, just remember that all cutscenes can be skipped after a second or so by pressing 'A' on the controller or the left mouse button.
 
 My advice is, if you tend to get sick during cutscenes, just keep very still and don't try to follow or to counteract the motion of the camera with your own head. Also, don't push it: as soon as you start to feel queasy, take a break and don't try again until you feel completely OK. With these simple tricks, you'll build your VR legs in no time!  
 
@@ -111,6 +113,7 @@ The R.E.A.L. mod offers some advanced options that you can tweak in real time wh
 Here is the list, with the initial value of each option:
 ```
 F11         Toggle hotkeys - off at start
+0           Cycle stereo mode in cutscenes (normal, dynamic, flat screen) - dynamic at start
 T           Cycle dominant eye for aiming down sights (none, left, right) - right at start
 Y           Cycle heading control (always, only when aiming, never) - always at start
 U           Toggle pitch control - on at start
@@ -128,6 +131,8 @@ NUMPAD 0    Toggle position tracking - on at start
 NUMPAD 2    Toggle stereo rendering (alternate eyes) - on at start
 NUMPAD 3    Toggle darts/tennis FOV override - on at start
 ```
+
+**Edit:** *since Release 3, the defaults for some of those settings can be customized by editing the* `RealVR.ini` *file. The mod will not overwrite this file, so even if you tweak the options using the hotkeys, the initial values that you set by manually editing* `RealVR.ini` *will be preserved for the next run.*
 
 # Even more advanced resolution tweaking
 
