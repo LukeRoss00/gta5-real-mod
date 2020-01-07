@@ -3,6 +3,22 @@
 
 ---
 
+# Table of contents
+
+[Quick setup](#quick-setup)  
+[In-game HUD](#in-game-hud)  
+[Keyboard/mouse, controller, aiming](#keyboardmouse-controller-aiming)  
+[Recentering your view in VR](#recentering-your-view-in-vr)  
+[Cutscenes](#cutscenes)  
+[Position tracking, animations, and the player's body model](#position-tracking-animations-and-the-players-body-model)  
+[I see car wheels in the sky, WTF?!](#i-see-car-wheels-in-the-sky-wtf)  
+[Advanced tweaking and hotkeys](#advanced-tweaking-and-hotkeys)  
+[Even more advanced resolution tweaking](#even-more-advanced-resolution-tweaking)  
+[Fixes included in the R.E.A.L. mod](#fixes-included-in-the-real-mod)  
+[FAQ](#faq)  
+[I am an experienced GTA modder and I wish to contribute, where do I begin?](#i-am-an-experienced-gta-modder-and-i-wish-to-contribute-where-do-i-begin)  
+[Credits](#credits)
+
 # Quick setup
 
 1. I recommend that you start from a clean installation of the game, updated to the current version (1.0.1868.0), with no other mods present. Then if you wish, after you're confident that everything works correctly in VR with the R.E.A.L. mod, you can try mixing it up with other mods that you like, although I cannot guarantee that there will be no incompatibilities (a sure source of problems for example would be trying to use additional mods that modify the camera FOV). If you're unable to update the game for some reason, old versions down to 1.0.1180.2 should also work, but I can't give you much support there.
