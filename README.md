@@ -74,7 +74,7 @@ If you cannot seem to trigger the recentering, follow these instructions:
 2. give a rather sharp shake to the left or the right (a single one is enough, even though the mod can also deal with repeated shakes) and immediately return your head to the initial position. By sharp I don't mean so hard as to hurt your neck or to have the headset slide around on your face: just enough to allow the mod to reliably distinguish the movement from a normal look-around motion;
 3. the mod will wait for a fraction of a second to allow your head position to stabilize, and then it will instruct the VR runtime to recenter the headset. There will be no visual or acoustic feedback that recentering has happened, but you'll always be able to tell because the HUD will snap back in front of you (and so will your vehicle if you're in one).
 
-If you are in a vehicle, and you don't need to reset the HUD but only to align the vehicle with the direction you're facing, a convenient shortcut that won't affect the HUD position is to briefly press the button for looking behind you (defaults to `C` on the keyboard, or pushing in the right stick on the gamepad).
+If you are in a vehicle, and you don't need to reset the HUD but only to align your character with the direction the vehicle is facing, a convenient shortcut that won't affect the HUD position is to briefly press the button for looking behind you (defaults to `C` on the keyboard, or pushing in the right stick on the gamepad).
 
 # Cutscenes
 
