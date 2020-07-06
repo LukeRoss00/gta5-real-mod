@@ -22,7 +22,7 @@
 
 # Quick setup
 
-1. I recommend that you start from a clean installation of the game, updated to the current version (1.0.1868.0 or 1.0.1868.4), with no other mods present. Then if you wish, after you're confident that everything works correctly in VR with the R.E.A.L. mod, you can try mixing it up with other mods that you like, although I cannot guarantee that there will be no incompatibilities (a sure source of problems for example would be trying to use additional mods that modify the camera FOV). If you're unable to update the game for some reason, old versions down to 1.0.1180.2 should also work, but I can't give you much support there.
+1. I recommend that you start from a clean installation of the game, updated to the current version (1.0.1868.1 or 1.0.1868.4), with no other mods present. Then if you wish, after you're confident that everything works correctly in VR with the R.E.A.L. mod, you can try mixing it up with other mods that you like, although I cannot guarantee that there will be no incompatibilities (a sure source of problems for example would be trying to use additional mods that modify the camera FOV). If you're unable to update the game for some reason, old versions down to 1.0.1180.2 should also work, but I can't give you much support there.
 2. Before installing the mod, boot up the game normally on your monitor and make the following important adjustments to the settings; when you're done, exit the game again:
 ```
 Settings> Gamepad> Targeting Mode                  : Free Aim
@@ -36,7 +36,7 @@ Settings> Camera>  First Person Vehicle Hood       : Off
 5. Remember to set your Windows default audio device to the VR headset, otherwise you will have no sound in game (if you have an Oculus system, this step can later be automated with the [Oculus Tray Tool](https://forums.oculusvr.com/community/discussion/47247/oculus-traytool-supersampling-profiles-hmd-disconnect-fixes-hopefully/p1) by creating a profile for GTA V and enabling the Audio Switcher).  
 6. Put on your HMD, pick up a gamepad if you wish, launch the game and marvel at the beauty that is Los Santos in VR! Whenever you need to recenter your view or to realign the HUD in front of you, just shake your head once as though you were saying no (more details in the [Recentering your view](#recentering-your-view-in-vr) section below). If tracking seems jerky or jumpy, make sure that ASW (for Oculus) or Motion Smoothing (for SteamVR) is *off*, either globally or for the GTA V app. Looking around with your head should feel perfectly fluid and smooth, just like a native VR game.  
 7. In case you need troubleshooting, or if just want to know more, please read the rest of this file! There is also a [FAQ](#faq) section at the end.  
-8. **New video tutorial with gameplay:** If you want to double check your installation steps with the help of a video tutorial, or you'd like to see how the mod looks and plays on High settings, Mike from the Virtual Reality Oasis channel put out a great [video](https://www.youtube.com/watch?v=P4QD_ggjrK8) for Release 4 of the mod!
+8. Video tutorial with gameplay: If you want to double check your installation steps with the help of a video tutorial, or you'd like to see how the mod looks and plays on High settings, Mike from the Virtual Reality Oasis channel put out a great [video](https://www.youtube.com/watch?v=P4QD_ggjrK8) for Release 4 of the mod!
 
 # In-game HUD
 
@@ -55,7 +55,7 @@ In the end, if you play sitting on a couch or at your desk, the HUD will always 
 For my previous [VR conversion](https://github.com/LukeRoss00/nolf2-real-mod/releases) of No One Lives Forever 2, a game that offered no native gamepad support because it was developed before gamepads became common for gaming PCs, I had to come up with custom bindings for the many controls needed. GTA V is way more advanced in that regard, and it will support basically every kind of controller that you throw at it. I have played every mission and activity from "New game" to 100% completion with all Gold medals, fully in VR, using an Xbox One gamepad. There are no special commands needed for VR, apart from the headshake gesture described below to recenter the headset view. Keyboard and mouse will perhaps feel less immersive (the controller vibration does wonders to make you feel like you're actually driving on bumpy roads), but they will also allow you to bring the game to completion. Also, many people are having lots of fun using steering wheels with https://www.gta5-mods.com/scripts/manual-transmission-ikt!!
 
 Oculus Touch controllers (or similar tracked controllers for other systems), however, are NOT supported. There was another mod out there that made them somewhat usable by removing your in-game character's body, but it's not something I'm personally interested in doing, for various reasons:
-1. GTA V needs all the buttons you can find on a controller, while Oculus Touch sadly lacks the D-Pad;
+1. GTA V needs all the buttons you can find on a controller, while Oculus Touch sadly lacks a D-Pad;
 2. GTA V is a *long* game, and since the main focus for this mod is being able to complete 100% of the game in VR and to leisurely admire the beautiful and incredibly complex world that Rockstar created, you need to be able to play seated and without holding your arms out in front of you for hours on end. Mimicking a real gun with the Touch controllers can be great fun for a short time, I know, but there is no shortage of gallery shooters to play if that's your bread and butter;
 3. perhaps most importantly, both NOLF2 and GTA V were built and designed with traditional FPS aiming in mind. I'm much more interested in preserving the original charm of the games as they were intended to be played, with beautiful animations and precise aiming, than I am in drawing a disembodied, floating gun in the air and perhaps tacking a laser pointer onto it in order to make some sort of aiming possible.
 
@@ -86,7 +86,7 @@ GTA V is much more rigid in its management of the camera during cutscenes, ~~and
 
 **Edit:** *This paragraph is no longer very relevant because of the new universal FOV fix, but I'm leaving it here for historical reasons and because it mentions the virtual screen mode, which some people may still want to use.* Release 3 of the mod introduced two different viewing modes for cutscenes. I call the first new mode "dynamic stereo". It automatically adapts to the varying camera FOV, so that the old problem where characters in cutscenes were frequently too close to your face for comfort, and looked somewhat flat, is completely eliminated. It also preserves the ability to look around freely, so for most users it should definitely be an improvement, which made me decide to set it as the new default. The only downside is that, when the camera really zooms in, faces will tend to look larger than life, the same as in 3D movies. If even this way of viewing cutscenes is too much for you, please see the [Advanced tweaking](#advanced-tweaking-and-hotkeys) section below to switch to the second new mode: a static, 2D virtual screen that completely eliminates all issues with motion sickness or vergence, of course at the cost of reduced immersiveness.
 
-Also in [Advanced tweaking](#advanced-tweaking-and-hotkeys), you'll find that there is one option for pitch control that you can modify, and ~~you can even force the FOV, which gets rid of the zoom effect completely but introduces all kinds of artefacts as described in [Car wheels in the sky](#i-see-car-wheels-in-the-sky-wtf)~~[no longer needed]. In case of panic, just remember that all cutscenes can be skipped after a second or so by pressing 'A' on the controller or the left mouse button.
+Also in [Advanced tweaking](#advanced-tweaking-and-hotkeys), you'll find that there is one option for pitch control that you can modify, and ~~you can even force the FOV, which gets rid of the zoom effect completely but introduces all kinds of artefacts as described in [Car wheels in the sky](#i-see-car-wheels-in-the-sky-wtf)~~[no longer needed]. In case of panic, just remember that all cutscenes can be skipped after a second or so by pressing `A` on the controller or the left mouse button.
 
 My advice is, if you tend to get sick during cutscenes, just keep very still and don't try to follow or to counteract the motion of the camera with your own head. Also, don't push it: as soon as you start to feel queasy, take a break and don't try again until you feel completely OK. With these simple tricks, you'll build your VR legs in no time!  
 
@@ -114,7 +114,7 @@ In VR, one of the most important requisites for immersion and to avoid motion si
 
 In the `Grand Theft Auto V\Settings` folder that gets created when you extract the mod, I have provided three template versions of the `settings.xml` file, one of which will be copied over to your `Documents\Rockstar Games\GTA V` directory when you run `RealConfig.bat`, to provide a starting point for your own customized graphics settings.
 
-**Release 4 update:** *It is now possible to modify graphics options without exiting the game, and you can even enable any valid combination of FXAA, MSAA and TXAA! The only thing that still needs to be edited by hand (and kept in sync between `settings.xml` and `commandline.txt`) if you want to change it from my defaults, is the base window resolution. Note that MSAA has a devastating impact on performance, so I only recommend it for people who have powerhouse GPUs (see the new [More advanced graphics tweaking](#more-advanced-graphics-tweaking) section for more info).*
+**Release 4 update:** *It is now possible to modify graphics options without exiting the game, and you can even enable any valid combination of FXAA, MSAA and TXAA! The only thing that still needs to be edited by hand (and kept in sync between `settings.xml` and `commandline.txt`) if you want to change it from my defaults, is the base window resolution. Note that MSAA has a huge impact on performance, so I only recommend it for people who have powerhouse GPUs (see the new [More advanced graphics tweaking](#more-advanced-graphics-tweaking) section for more info).*
 
 If you want to customize your graphics options to further tune the game performance to your specific system, with the goal of keeping a steady frame rate while at the same time enjoying the fullest graphical quality, there are a few important facts which you should keep in mind. First of all, the settings given in the following table must always be honored for the mod to work properly:   
 ```
@@ -146,9 +146,8 @@ K           Toggle full camera tracking in cutscenes - on at start
 '           Toggle slow motion - off at start
 N           Toggle FPS counter - off at start
 -           Cycle HUD tracking mode (normal, force fixed, force headlocked, developer) - normal at start
-End         Cycle universal FOV fix (never, only cutscenes, only aiming, always) - always at start
+End         Toggle gyro stabilization of view in vehicle - off at start
 NUMPAD /    Recenter HMD - centered at start
-NUMPAD -    Toggle VR enable - on at start
 NUMPAD .    Cycle zoom override (never, only cutscenes, always except cutscenes, always) - never at start
 NUMPAD 0    Toggle position tracking - on at start
 NUMPAD 2    Toggle stereo rendering (alternate eyes) - on at start
@@ -159,7 +158,7 @@ NUMPAD 3    Toggle darts/tennis FOV override - on at start
 
 # More advanced graphics tweaking
 
-Beginning from Release 4, the mod uses a much improved technique for capturing the game's internal rendering buffers. Also, thanks to Reddit users ([/u/SIMBO](https://www.reddit.com/user/SIMBO) and [/u/enarth](https://www.reddit.com/user/enarth)) I found out that forcing a custom resolution in `commandline.txt`, instead of only putting it in `settings.xml`, keeps GTA V from reverting to 800x600 every time that a graphics option is changed.
+Beginning from Release 4, the mod uses a much improved technique for capturing the game's internal rendering buffers. Also, thanks to Reddit users [/u/SIMBO](https://www.reddit.com/user/SIMBO) and [/u/enarth](https://www.reddit.com/user/enarth) I found out that forcing a custom resolution in `commandline.txt`, instead of only putting it in `settings.xml`, keeps GTA V from reverting to 800x600 every time that a graphics option is changed.
 
 Together, those two things mean that it is now possible to change graphics settings on the fly while in-game, instead of having to edit the `settings.xml` file manually, which should make finding the perfect compromise between image quality and frame rate much faster and easier than it used to be.
 
@@ -286,7 +285,7 @@ There are several areas of improvement where the R.E.A.L. mod could really benef
 6. I've tried several times to fix aiming while the player's in 1st person cover, but new issues keep cropping up, so in the end I gave up and resorted to the "First Person Third Person Cover" workaround. I have a nagging suspicion that the developers put this option in the menu because they too weren't completely satisfied with the implementation :-P If, after looking at the code, you have fresh ideas to make it work reliably (in particular when the player is aiming towards and across the cover, instead of away from it) please let me know.
 7. ~~If you are a VR C++ developer with a non-Oculus headset and you want to undertake the semi-arduous work of making a native SteamVR/OpenVR/OpenXR version of the mod, do get in touch and I can give you pointers to get started. It would help *a lot* if you also have experience with the Oculus SDK.~~ Did it myself. Big thanks to [/u/iupvoteevery](https://www.reddit.com/user/iupvoteevery) for lots of testing, support and advice!
 8. Does anybody know of a technique (e.g., a native call) to reliably find out when a 1st person animation is being played? For instance, it would be nice to have the option to disable user control of the camera when the character is rolling on the ground during combat (`AI::GET_IS_TASK_ACTIVE(PLAYER::PLAYER_PED_ID(), CTaskCombatRoll)` doesn't seem to ever return true). Note that this is different from ragdolling, which I already know how to detect.
-9. Can the non-graphics menu settings (e.g., "Allow Independent Camera Modes") somehow be controlled programmatically or through an .ini file, so that the mod could make the few tweaks it needs at the beginning without user intervention? 
+9. Can the non-graphics menu settings (e.g., "First Person Head Bobbing") somehow be controlled programmatically or through an .ini file, so that the mod could make the few tweaks it needs at the beginning without user intervention? 
 
 # Credits
 
