@@ -1,6 +1,10 @@
 # R.E.A.L. mod for Grand Theft Auto V - 100% VR!
 ### by LukeRoss
 
+[![Watch a video demonstration](https://img.youtube.com/vi/6jPoRpl8sfw/maxresdefault.jpg)](https://youtu.be/6jPoRpl8sfw)
+
+Check out this amazing video by *ADIL VR-MR* if you're on the fence about installing my mod and you want to get a sneak peek of what it's like to experience GTA V "from the inside"!!
+
 ---
 
 # Table of contents
