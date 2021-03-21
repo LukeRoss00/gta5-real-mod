@@ -26,7 +26,7 @@ Check out this amazing video by *ADIL VR-MR* if you're on the fence about instal
 
 # Quick setup
 
-1. I recommend that you start from a clean installation of the game, updated to the current version (1.0.2215.0), with no other mods present. Then if you wish, after you're confident that everything works correctly in VR with the R.E.A.L. mod, you can try mixing it up with other mods that you like, although I cannot guarantee that there will be no incompatibilities (a sure source of problems for example would be trying to use additional mods that modify the camera FOV). If you're unable to update the game for some reason, old versions down to 1.0.1180.2 should also work, but I can't give you much support there.
+1. I recommend that you start from a clean installation of the game, updated to the current version (1.0.2245.0), with no other mods present. Then if you wish, after you're confident that everything works correctly in VR with the R.E.A.L. mod, you can try mixing it up with other mods that you like, although I cannot guarantee that there will be no incompatibilities (a sure source of problems for example would be trying to use additional mods that modify the camera FOV). If you're unable to update the game for some reason, old versions down to 1.0.1180.2 should also work, but I can't give you much support there.
 2. Before installing the mod, boot up the game normally on your monitor and make the following important adjustments to the settings; when you're done, exit the game again:
 ```
 Settings> Gamepad> Targeting Mode                  : Free Aim
