@@ -1,9 +1,15 @@
 # R.E.A.L. mod for Grand Theft Auto V - 100% VR!
-### by LukeRoss
+#### by LukeRoss
+
+## Also check out my Red Dead Redemption 2 VR mod, it's in early access on [Patreon](https://patreon.com/realvr)!
+
+[![Red Dead Redemption 2 VR Mod Gameplay - First 27 Minutes](https://img.youtube.com/vi/xK7qvB8kdJ0/maxresdefault.jpg)](https://youtu.be/xK7qvB8kdJ0)
+
+---
+
+Watch this amazing video by *Adil VR Mixed Reality* if you're on the fence about installing my mod and you want to get a sneak peek of what it's like to experience GTA V "from the inside"!!
 
 [![Watch a video demonstration](https://img.youtube.com/vi/6jPoRpl8sfw/maxresdefault.jpg)](https://youtu.be/6jPoRpl8sfw)
-
-Check out this amazing video by *ADIL VR-MR* if you're on the fence about installing my mod and you want to get a sneak peek of what it's like to experience GTA V "from the inside"!!
 
 ---
 
