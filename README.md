@@ -1,7 +1,7 @@
 # R.E.A.L. mod for Grand Theft Auto V - 100% VR!
 #### by LukeRoss
 
-## Also check out my Red Dead Redemption 2 VR mod, it's in early access on [Patreon](https://patreon.com/realvr)!
+## Check out my Red Dead Redemption 2 VR mod, it's in early access on [Patreon](https://patreon.com/realvr)! Also, my Patrons are voting right now on [which games I should do next](https://www.patreon.com/posts/which-games-do-58611127) :-)
 
 [![Red Dead Redemption 2 VR Mod Gameplay - First 27 Minutes](https://img.youtube.com/vi/xK7qvB8kdJ0/maxresdefault.jpg)](https://youtu.be/xK7qvB8kdJ0)
 
