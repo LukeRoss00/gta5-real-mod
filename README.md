@@ -1,15 +1,11 @@
 # R.E.A.L. mod for Grand Theft Auto V - 100% VR!
 #### by LukeRoss
 
-## Check out my Red Dead Redemption 2 VR mod, it's in early access on [Patreon](https://patreon.com/realvr)! Also, my Patrons are voting right now on [which games I should do next](https://www.patreon.com/posts/which-games-do-58611127) :-)
+## July 8, 2022: Due to [hostile behavior](https://www.patreon.com/posts/68740592) from Take-Two Interactive Software, Inc., owner of Rockstar Games, Inc., I will no longer provide any kind of support or updates for this mod. It's been an amazing run, with almost 200,000 downloads and who knows how many additional copies of the game sold for them, but they saw fit to kill it off anyway [because](https://gamerant.com/take-two-interactive-gta-classic-mods-dmca-takedown/) that [is](https://kotaku.com/take-two-goes-on-another-grand-theft-auto-mod-killing-s-1847467984) the [way](https://techraptor.net/gaming/news/take-two-adds-gta-underground-list-killed-mods) they [operate](https://kotaku.com/gta-v-take-two-mafia-modder-mods-luke-ross-vr-dmca-1849149715). Feel free to contact them if you wish to play the game in VR, I'm sure they'll have an official port coming in the next 20 years or so ;-)
 
-[![Red Dead Redemption 2 VR Mod Gameplay - First 27 Minutes](https://img.youtube.com/vi/xK7qvB8kdJ0/maxresdefault.jpg)](https://youtu.be/xK7qvB8kdJ0)
+### Tired of playing flat games? Check out my latest VR mod for Dark Souls: Remastered, it's in early access on my [Patreon](https://patreon.com/realvr)!!
 
----
-
-Watch this amazing video by *Adil VR Mixed Reality* if you're on the fence about installing my mod and you want to get a sneak peek of what it's like to experience GTA V "from the inside"!!
-
-[![Watch a video demonstration](https://img.youtube.com/vi/6jPoRpl8sfw/maxresdefault.jpg)](https://youtu.be/6jPoRpl8sfw)
+[![Dark Souls: Remastered VR Mod - 30 Minutes of Gameplay](https://img.youtube.com/vi/aOHca3t9jTk/maxresdefault.jpg)](https://youtu.be/aOHca3t9jTk)
 
 ---
 
