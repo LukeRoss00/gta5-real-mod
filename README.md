@@ -10,6 +10,7 @@
 ---
 
 # Table of contents
+micheal tervor franklin
 
 [Quick setup](#quick-setup)  
 [In-game HUD](#in-game-hud)  
